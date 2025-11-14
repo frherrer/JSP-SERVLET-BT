@@ -56,7 +56,7 @@ El sistema conecta con una base de datos MySQL y está diseñado para ejecutarse
 
 Se incluye en carpeta sql  un archivo `estudiantes.sql` con la siguiente estructura:
 
-CREATE DATABASE Colegio;
+```CREATE DATABASE Colegio;
 USE Colegio;
 
 CREATE TABLE estudiantes (
@@ -64,7 +64,7 @@ CREATE TABLE estudiantes (
     nombre VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL,
     carrera VARCHAR(100) NOT NULL
-);
+);```
 
 ## 🚀 Despliegue del proyecto
 
