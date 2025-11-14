@@ -22,7 +22,7 @@ El sistema conecta con una base de datos MySQL y está diseñado para ejecutarse
 - Apache Tomcat 11
 
 ## 📁 Estructura del proyecto
-
+```
 /src
 └── java
     └── com
@@ -53,7 +53,7 @@ El sistema conecta con una base de datos MySQL y está diseñado para ejecutarse
 
 /sql
 └── estudiantes.sql
-
+```
 
 ## 🗄️ Base de datos (MySQL)
 
@@ -68,7 +68,8 @@ CREATE TABLE estudiantes (
     nombre VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL,
     carrera VARCHAR(100) NOT NULL
-);```
+);
+```
 
 ## 🚀 Despliegue del proyecto
 
