@@ -23,34 +23,37 @@ El sistema conecta con una base de datos MySQL y está diseñado para ejecutarse
 
 ## 📁 Estructura del proyecto
 
-/src/java/com/skillnest
- ├── controller/
- │     └── EstudianteServlet.java
- ├── model/
- │     ├── EstudianteDAO.java
- │     └── Estudiante.java
- └── util/
-       └── ConexionBD.java
-
+/src
+└── java
+    └── com
+        └── skillnest
+            ├── controller
+            │   └── EstudianteServlet.java
+            ├── model
+            │   ├── EstudianteDAO.java
+            │   └── Estudiante.java
+            └── util
+                └── ConexionBD.java
 
 /webapp
- ├── META-INF/
- ├── WEB-INF/
- │     ├── lib
- │     └── web.xml
- ├── index.jsp
- ├── listar.jsp
- ├── agregar.jsp
- └── editar.jsp
- 
+├── META-INF/
+├── WEB-INF/
+│   ├── lib/
+│   └── web.xml
+├── index.jsp
+├── listar.jsp
+├── agregar.jsp
+└── editar.jsp
+
 /img
- └── capturas del sistema
+└── capturas del sistema
 
 /dist
- └── Estudiantes.war
- 
- /sql
- └── estudiantes.sql
+└── Estudiantes.war
+
+/sql
+└── estudiantes.sql
+
 
 ## 🗄️ Base de datos (MySQL)
 
@@ -64,7 +67,7 @@ CREATE TABLE estudiantes (
     nombre VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL,
     carrera VARCHAR(100) NOT NULL
-);```
+); ```
 
 ## 🚀 Despliegue del proyecto
 
