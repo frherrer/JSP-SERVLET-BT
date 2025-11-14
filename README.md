@@ -59,7 +59,8 @@ El sistema conecta con una base de datos MySQL y está diseñado para ejecutarse
 
 Se incluye en carpeta sql  un archivo `estudiantes.sql` con la siguiente estructura:
 
-```CREATE DATABASE Colegio;
+```sql
+CREATE DATABASE Colegio;
 USE Colegio;
 
 CREATE TABLE estudiantes (
