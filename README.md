@@ -67,7 +67,7 @@ CREATE TABLE estudiantes (
     nombre VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL,
     carrera VARCHAR(100) NOT NULL
-); ```
+);```
 
 ## 🚀 Despliegue del proyecto
 
